@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+  
+    background: linear-gradient(
+      90deg,
+      rgba(217, 217, 217, 0.2) 0%,
+      rgba(217, 217, 217, 0.2) 100%
+    );
+    background-blend-mode: overlay;
+    backdrop-filter: blur(90px);
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    z-index: 5;
+  }
+  
+  .logo img {
+    display: flex;
+    width: 177px;
+    height: 88px;
+    padding: 12px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 16px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu li {
+    cursor: pointer;
+    color: #2e2929;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+  }
+  
