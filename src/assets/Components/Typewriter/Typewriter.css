@@ -1,0 +1,57 @@
+.typewriter {
+  position: absolute;
+  top: 490px;
+  left: 187px;
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  top: 418px;
+  left: 45px;
+}
+
+.static-text {
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 72px; /* 112.5% */
+letter-spacing: -1.92px;
+}
+
+.dynamic-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 64px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid #000;
+  padding-right: 8px;
+  animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
+
+  background: linear-gradient(91deg, #9FE9EE 0%, #C677EC 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Add your keyframes animations here *
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000;
+  }
+}

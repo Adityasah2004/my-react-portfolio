@@ -1,8 +1,12 @@
 import React from 'react';
+import './App.css';
+
+import Navbar from './assets/Components/Navbar/Navbar';
 import ProfileCard from './assets/Components/ProfileCard/ProfileCard';
 import Ellipses from './assets/Components/Ellipses/Ellipses';
-import './App.css';
-import Navbar from './assets/Components/Navbar/Navbar';
+import Typewriter from './assets/Components/Typewriter/Typewriter'; 
+
+
 
 function App() {
   return (
@@ -16,6 +20,12 @@ function App() {
         github="https://github.com/Adityasah2004"
       />
       <Ellipses />
+      <Typewriter
+        staticText="Heya!👋, I am a: "
+        words={['Full-Stack Developer', 'App Developer', 'UI/UX Designer']}
+        speed={100}
+      />
+
     </div>
   );
 }
